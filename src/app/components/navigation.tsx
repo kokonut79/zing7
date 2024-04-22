@@ -38,7 +38,6 @@ const Navigation = () => {
                 </nav>
 
                 <div className="sm:hidden flex items-center space-x-4 fixed right-0 mr-5">
-                    {/* The button inside this div is missing its content */}
                     <button className="text-lg font-medium p-4 text-dark-blue">
                         {/* Add content for the button */}
                     </button>
