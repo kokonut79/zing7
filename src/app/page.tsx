@@ -1,3 +1,4 @@
+import ContactForm from "./components/ContactForm";
 import InfoSection from "./components/InfoSection";
 import Navigation from "./components/navigation";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Navigation />
       <InfoSection />
+      <ContactForm />
     </main>
   );
 }
