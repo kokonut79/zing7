@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import truckImage from "../../../public/truckImage.jpg";
 import Image from "next/image";
 
@@ -34,16 +34,17 @@ function InfoText() {
         </div>
     );
 }
+
 function InfoSection() {
     return (
-        <div className="text-center">
+        <div className="text-center mb-10">
             <div className="text-4xl lg:text-7xl font-medium text-[#01303A] p-4 lg:p-10">
                 <h2>Гъвкави решения за сухопътен транспорт за всеки клиент</h2>
             </div>
-            <Image src={truckImage} alt="trucImage" className="mx-auto w-full lg:w-auto" />
+            <Image src={truckImage} alt="truckImage" className="mx-auto w-full lg:w-auto" />
             <InfoText />
         </div>
-    )
+    );
 }
 
-export default InfoSection
+export default InfoSection;

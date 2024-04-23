@@ -1,4 +1,5 @@
 import ContactForm from "./components/ContactForm";
+import Hero from "./components/Hero";
 import InfoSection from "./components/InfoSection";
 import Navigation from "./components/navigation";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Navigation />
       <InfoSection />
       <ContactForm />
+      <Hero />
     </main>
   );
 }
